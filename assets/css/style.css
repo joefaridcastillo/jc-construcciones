@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #a4c639;
+	background-color: #c40000;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -46,7 +46,7 @@ a.filled-button {
 
 a.filled-button:hover {
 	background-color: #fff;
-	color: #a4c639;
+	color: #c40000;
 }
 
 a.border-button {
@@ -64,7 +64,7 @@ a.border-button {
 
 a.border-button:hover {
 	background-color: #fff;
-	color: #a4c639;
+	color: #c40000;
 }
 
 .section-heading {
@@ -80,7 +80,7 @@ a.border-button:hover {
 
 .section-heading em {
 	font-style: normal;
-	color: #a4c639;
+	color: #c40000;
 }
 
 .section-heading span {
@@ -94,7 +94,7 @@ a.border-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #a4c639;
+  background: #c40000;
   left: 0;
   right: 0;
   top: 0;
@@ -174,7 +174,7 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #a4c639;
+	background-color: #c40000;
 	height: 46px;
 	line-height: 46px;
 }
@@ -255,7 +255,7 @@ header .navbar {
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #a4c639!important;
+	color: #c40000!important;
 }
 .background-header .navbar-nav a.nav-link {
 	color: #1e1e1e!important;
@@ -265,7 +265,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #a4c639!important;
+	color: #c40000!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -309,8 +309,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #a4c639;
-	border-bottom: 3px solid #a4c639;
+	color: #c40000;
+	border-bottom: 3px solid #c40000;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -327,7 +327,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #a4c639;
+	color:#c40000;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -387,11 +387,12 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/first.jpg);
+opacity: 0.8;
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(../images/second.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
@@ -455,7 +456,8 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:#a4c639;
+	color: #c40000;
+
   animation:fadeOutRight 1s both;
 }
 
@@ -472,11 +474,13 @@ ul.slick-dots {
 
 .Modern-Slider .item p {
 	max-width: 570px;
-	color: #fff;
+	color: #00c4c4;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 30px;
 	margin-bottom: 40px;
+	background-color: #232323;
+	
 }
 
 .Modern-Slider .item a {
