@@ -1,10 +1,4 @@
-/* 
 
-TemplateMo - Finance Business
-
-https://templatemo.com/tm-545-finance-business
-
-*/
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -33,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #BC835E;
+	background-color: #CBB26A;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -94,7 +88,7 @@ a.border-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #BC835E;
+  background: #CBB26A;
   left: 0;
   right: 0;
   top: 0;
@@ -174,7 +168,7 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #BC835E;
+	background-color: #CBB26A;
 	height: 46px;
 	line-height: 46px;
 }
@@ -255,7 +249,7 @@ header .navbar {
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #a4c639!important;
+	color: #be9e44!important;
 }
 .background-header .navbar-nav a.nav-link {
 	color: #1e1e1e!important;
@@ -265,7 +259,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #a4c639!important;
+	color: #be9e44!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -309,8 +303,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #a4c639;
-	border-bottom: 3px solid #a4c639;
+	color: #be9e44;
+	border-bottom: 3px solid #CBB26A;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -384,13 +378,23 @@ header .navbar {
 	background-position: center center;
 	background-repeat: no-repeat;
 	height:95vh;
+	background-image: url(../images/Color\ logo\ with\ background.svg);
+	background-size: 50%;
 }
 
 
-.Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/cover-1.jpg);
+.Modern-Slider .item-1 .img-fill::before {
+	content:"";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.55);
+
 	
 }
+
 
 
 ul.slick-dots {
@@ -567,7 +571,7 @@ ul.slick-dots {
 
 .fun-facts em {
 	font-style: normal;
-	color: #a4c639;
+	color: #CBB26A;
 }
 
 .fun-facts p {
