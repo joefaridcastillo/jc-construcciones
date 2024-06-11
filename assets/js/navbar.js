@@ -1,9 +1,10 @@
-function scrollToAbout() {
-  document.getElementById("about").scrollIntoView({ behavior: "smooth" });
-}
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll("a[data-target]");
 
-// Current JavaScript that changes the hash
-window.location.hash = "about";
-
-// Modified JavaScript
-document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+  links.forEach((link) => {
+    link.addEventListener("click", function (event) {
+      const targetId = event.target.getAttribute("data-target");
+      document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+    });
+  });
+});
