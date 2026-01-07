@@ -400,8 +400,8 @@ header .navbar {
   background-position: center center;
   background-repeat: no-repeat;
   height: 95vh;
-  background-image: url(../images/Color\ logo\ with\ background.svg);
-  background-size: 50%;
+  background-image: url(../images/5.jpg);
+  background-size: 100%;
 }
 
 .Modern-Slider .item-1 .img-fill::before {
